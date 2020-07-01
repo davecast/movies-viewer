@@ -1,0 +1,53 @@
+.movie__sidebar {
+  position: absolute;
+  z-index: 5;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  padding-right: 25px;
+  padding-bottom: 25px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+.movie__sidebar--init {
+}
+.movie__sidebar--init button {
+  background: transparent;
+  border: 1px solid #fff;
+  width: 65px;
+  height: 65px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 40px;
+}
+.movie__sidebar--init button i {
+  color: var(--white);
+}
+.movie__sidebar--init .separator {
+}
+.movie__sidebar--init .separator-down {
+}
+
+.movie__sidebar--name {
+  color: var(--white);
+  writing-mode: vertical-rl;
+  transform: rotate(180deg);
+  font-size: 22px;
+  line-height: 30px;
+  margin-bottom: 10px;
+}
+
+.movie__sidebar i {
+  color: var(--yellow);
+  display: block;
+  width: 30px;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 20px;
+  line-height: 20px;
+}
