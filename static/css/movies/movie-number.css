@@ -10,4 +10,10 @@
   font-weight: 300;
   padding-left: 25px;
   padding-bottom: 25px;
+  transition: opacity 0.35s ease-in-out;
+}
+
+.movies.active .movie:not(.open) .movie__number {
+  opacity: 0;
+  
 }
