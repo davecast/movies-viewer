@@ -25,6 +25,9 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+.m-star-solid:before {
+  content: "\e915";
+}
 .m-plus:before {
   content: "\e911";
 }

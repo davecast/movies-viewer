@@ -1,5 +1,5 @@
 .movie__sidebar {
-  width: 65px;
+  width: 80px;
   position: absolute;
   z-index: 5;
   top: 0;
@@ -14,7 +14,7 @@
   transition: all 0.3s ease;
 }
 .movie__sidebar--init {
-  width: 65px;
+  width: 80px;
   height: 100%;
   display: flex;
   flex-direction: column;
@@ -58,7 +58,7 @@
   writing-mode: vertical-rl;
   transform: rotate(180deg);
   font-size: 22px;
-  line-height: 65px;
+  line-height: 80px;
   margin-bottom: 10px;
   flex-shrink: 0;
   transition: all 0.3s ease-in-out;
@@ -67,7 +67,7 @@
 .movie__sidebar i {
   color: var(--yellow);
   display: block;
-  width: 65px;
+  width: 80px;
   height: 30px;
   display: flex;
   justify-content: center;
@@ -81,14 +81,14 @@
   padding-bottom: 10px;
 }
 .movie.open .movie__sidebar--init button {
-  width: 65px;
-  height: 65px;
+  width: 80px;
+  height: 80px;
   opacity: 1;
   visibility: visible;
 }
 .movie.open .movie__sidebar--init .separator,
 .movie.open .movie__sidebar--init .separator-down {
-  height: calc(calc(100% - 100px) / 2);
+  height: calc(calc(100% - 130px) / 2);
 }
 
 .movie.open .movie__sidebar--name {
