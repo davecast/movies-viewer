@@ -11,13 +11,17 @@
     <link rel="stylesheet" href="./static/css/main.css" />
   </head>
   <body>
+    <section class="video__container">
+      <video id="video" poster=""></video>
+      <i id="close-video" class="m-closed"></i>
+    </section>
     <section class="movies">
       <article class="movie">
         <div class="movie__number">01</div>
         <div class="movie__sidebar">
           <div class="movie__sidebar--init">
             <div class="separator"></div>
-            <button>
+            <button class="view__video" data-video="joker.mp4" data-poster="1.jpg">
               <i class="m-caret-right-solid"></i>
             </button>
             <div class="separator separator-down"></div>
@@ -61,7 +65,7 @@
           </div>
         </div>
         <div class="movie__action">
-          <i class="m-closed"></i>
+          <i class="close__movie m-closed"></i>
         </div>
       </article>
       <article class="movie">
@@ -69,7 +73,7 @@
         <div class="movie__sidebar">
           <div class="movie__sidebar--init">
             <div class="separator"></div>
-            <button>
+            <button class="view__video" data-video="john-wick.mp4" data-poster="2.jpg">
               <i class="m-caret-right-solid"></i>
             </button>
             <div class="separator separator-down"></div>
@@ -114,7 +118,7 @@
           </div>
         </div>
         <div class="movie__action">
-          <i class="m-closed"></i>
+          <i class="close__movie m-closed"></i>
         </div>
       </article>
       <article class="movie">
@@ -122,7 +126,7 @@
         <div class="movie__sidebar">
           <div class="movie__sidebar--init">
             <div class="separator"></div>
-            <button>
+            <button class="view__video" data-video="hellboy.mp4" data-poster="3.jpg">
               <i class="m-caret-right-solid"></i>
             </button>
             <div class="separator separator-down"></div>
@@ -166,7 +170,7 @@
           </div>
         </div>
         <div class="movie__action">
-          <i class="m-closed"></i>
+          <i class="close__movie m-closed"></i>
         </div>
       </article>
       <article class="movie">
@@ -174,7 +178,7 @@
         <div class="movie__sidebar">
           <div class="movie__sidebar--init">
             <div class="separator"></div>
-            <button>
+            <button class="view__video" data-video="star-wars.mp4" data-poster="4.jpg">
               <i class="m-caret-right-solid"></i>
             </button>
             <div class="separator separator-down"></div>
@@ -219,7 +223,7 @@
           </div>
         </div>
         <div class="movie__action">
-          <i class="m-closed"></i>
+          <i class="close__movie m-closed"></i>
         </div>
       </article>
     </section>

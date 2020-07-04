@@ -35,10 +35,22 @@
   box-sizing: border-box;
   opacity: 0;
   visibility: hidden;
-  transition: opacity 0.2s ease-in-out 0.45s;
+  cursor: pointer;
+  outline: none;
+  transition: opacity 0.2s ease-in-out 0.45s, background 0.3s ease-in-out, transform 0.3s ease-in-out;
 }
 .movie__sidebar--init button i {
   color: var(--white);
+}
+.movie__sidebar--init button:hover {
+  background-color: var(--white);
+  transform: scale(1.25);
+}
+.movie__sidebar--init button:active {
+  transform: scale(1.05);
+}
+.movie__sidebar--init button:hover i {
+  color: var(--yellow);
 }
 .movie__sidebar--init .separator {
   width: 1px;
@@ -77,6 +89,9 @@
 }
 
 /*ACTIVE*/
+.movie.open .movie__sidebar {
+  z-index: 20;
+}
 .movie.open .movie__sidebar--init {
   padding-bottom: 10px;
 }
